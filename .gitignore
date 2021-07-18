@@ -1,3 +1,5 @@
+MySelectShop/MySelectShop/src/main/java/com/myselectshop/myselectshop/config/ApiKey.java
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,intellij,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,intellij,java
@@ -161,4 +163,3 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,intellij,java
 
-ApiKey.java
