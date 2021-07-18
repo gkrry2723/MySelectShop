@@ -35,3 +35,12 @@
 - 먼저, java에서 JSON을 다루기 위하여 JSONObject, JSONArray 클래스가 필요한데 이를 Gradle 라이브러리로 가져와서 사용하자!! (JSON in JAVA)
 - search 한 결과를 담을 수 있는 ItemDto 만들어주기
 - 네이버 검색을 할 수 있는 Controller 만들어주기 -> Get 필요
+
+#### 6. 프론트엔드 
+- 프론트로 이미 만들어져있는 html, css, js 파일 가져오기
+
+#### 7. 검색 기능 만들기 with 프론트엔드
+- 검색창 입력값 가져오기
+-   GET /api/search?query=${query} 요청
+	- js에서 crud하는 법 : ajax 활용하기
+-   for 문마다 itemDto를 꺼내서 HTML 만들고 검색결과 목록에 붙이기!

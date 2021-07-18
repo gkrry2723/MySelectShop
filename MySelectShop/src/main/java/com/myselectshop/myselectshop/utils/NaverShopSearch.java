@@ -38,6 +38,7 @@ public class NaverShopSearch {
     public List<ItemDto> fromJSONtoItems(String result){
         // 검색 결과를 JSON으로 가져오기
         JSONObject rjson = new JSONObject(result);
+        System.out.println(rjson);  //items 라는 키값 안에 검색 결과 들어있음
         // JSONObject에서 키값이 items인 배열 꺼내기
         JSONArray items = rjson.getJSONArray("items");
 
@@ -51,9 +52,4 @@ public class NaverShopSearch {
         }
         return itemDtoList;
     }
-
-    public static void main(String[] args) {
-        NaverShopSearch naverShopSearch = new NaverShopSearch();
-    }
-
 }
