@@ -1,0 +1,26 @@
+## 과정
+
+#### 0. 3계층 개념
+-   Controller : 제일 바깥 - 요청을 받고, 응답을 되돌려주는 역할 - 자동응답기
+-   Service : update
+-   Repository :  DB와 직접 소통 - CRUD
+
+#### 1. 네이버 쇼핑 api 가져오기
+- REST API : JSON 형식으로 응답이 옴
+- ARC로 API 사용해서 GET 응답 받아보기 : query 넣고, header 넣어서 요청
+		- ARC에서 GET 보내면 CODE SNIPPETS에서 JAVA > SPRING 에서 코드 긁어오기
+			![ARC](./img/ARC.PNG)
+- **위치**: utils>NaverShopSearch.java
+- search method에 긁어온 코드 넣기
+- 이때 api key 숨기고 github에 올려야함
+
+#### 2.  3계층 
+- Controller : 검색 관련(api), 저장한 상품 관련
+- Service : 관심 상품 가격 설정
+- Repository 
+
+#### 3. 관심 상품 DB에 저장하기
+- Product Model , Timestamped 클래스 만들기
+- Timestamped : MappedSuperclass, EntityListener 필요
+- Product Repository 
+- ProductRestController : GET 
