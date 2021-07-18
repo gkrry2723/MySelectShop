@@ -24,3 +24,8 @@
 - Timestamped : MappedSuperclass, EntityListener 필요
 - Product Repository 
 - ProductRestController : GET 
+
+#### 4. 관심상품 등록하기
+- Dto 만들기 
+- Servie 만들기 : 가격 정보 update를 위해 필요
+- Conteroller에 POST 추가하기
