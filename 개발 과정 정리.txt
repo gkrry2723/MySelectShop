@@ -29,3 +29,8 @@
 - Dto 만들기 
 - Servie 만들기 : 가격 정보 update를 위해 필요
 - Conteroller에 POST 추가하기
+
+#### 5. 키워드로 상품 검색하기
+- 이전 search 함수가 있는 class 변경 : 검색어를 계속 받아올 수 있도록
+- 먼저, java에서 JSON을 다루기 위하여 JSONObject, JSONArray 클래스가 필요한데 이를 Gradle 라이브러리로 가져와서 사용하자!! (JSON in JAVA)
+- search 한 결과를 담을 수 있는 ItemDto 만들어주기
