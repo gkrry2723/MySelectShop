@@ -161,4 +161,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,intellij,java
 
-MySelectShop/src/main/java/com/myselectshop/myselectshop/config/ApiKey.java
+ApiKey.java
