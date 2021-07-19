@@ -1,5 +1,6 @@
 MySelectShop/src/main/java/com/myselectshop/myselectshop/config/ApiKey.java
 
+application.properties
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,intellij,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,intellij,java
